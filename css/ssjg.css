@@ -1,0 +1,140 @@
+/* input */
+.inp{
+    display: flex;
+    justify-content:center;
+    margin-top: 3.2vw;
+}
+.inpD{
+    width: 78.4vw;
+    height: 8vw;
+    border-radius: 20px;
+    background: #f9f9f9;
+    font-size: 3.2vw;
+    color: #898c92;
+}
+.inpD img{
+    width: 2.6667vw;
+    height: 2.6667vw;
+    padding: 2.6667vw 2.6667vw 0 2.6667vw;
+}
+.inpQ{
+    font-size: 4vw;
+    line-height: 8vw;
+    padding-left: 5.3333vw;
+    color: #898c92;
+}
+/* 作者 */
+.author{
+    padding-top: 10.6667vw; 
+    display: flex;
+    justify-content: space-between;
+}
+.author h2{
+    padding-left: 4.5333vw;
+    font-size: 4.2667vw;
+    color: #2b303b;
+    font-weight: bold;
+}
+.author p{
+    font-size: 3.4667vw;
+    color: #babec6;
+    padding-top: 0.8vw;
+    padding-right: 4vw;
+}
+.author img{
+    padding-left: 2.9333vw;
+}
+/* 作者列表 */
+.rel{
+    padding: 9.0667vw 0 0 4.2667vw;
+}
+.rel li{
+    width: 37.8667vw;
+    box-shadow:3px 5px  5px 5px #effaff;
+    border-radius: 10px;
+}
+.swiper-slide{
+    width: 37.8667vw !important;
+}
+.image{
+    width: 8vw;
+    height: 8vw;
+    padding: 5.3333vw 14.9333vw 0 14.9333vw;
+    border-radius: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.zname{
+    font-size: 3.4667vw;
+    color: #303540;
+    padding: 3.4667vw 12.6vw 4.2667vw 13.6vw;
+    font-weight: bold;
+}
+.label{
+    width: 25.6vw;
+    font-size: 2.9333vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #bcbfc8;
+    padding: 0 5.3333vw 0 4.8vw;
+}
+.follow{
+    width: 14.9333vw;
+    height: 6.4vw;
+    font-size: 2.9333vw;
+    text-align: center;
+    line-height: 6.4vw;
+    background: #e5f7ff;
+    border-radius: 20px;
+    color: #00b0ff;
+    margin: 5.8667vw 11.7333vw 5.6vw 11.7333vw;
+}
+/* 相关内容 */
+.recom{
+    padding-top: 5.8667vw;
+    padding-left: 4.5333vw;
+}
+.recom h2{
+    font-weight: bold;
+    color: #3c414b;
+    font-size: 4.2667vw;
+}
+.recom li{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 64vw;
+    padding-top: 6.6667vw;
+    overflow: hidden;
+    white-space: normal;
+}
+.left>p{
+    color: #333842;
+    font-size: 4vw;
+}
+.aut{
+    display: flex;
+    justify-content: start;
+    font-size: 2.9333vw;
+    color: #bcc0c8;
+    padding-top: 4vw;
+}
+.auname{
+    padding-right: 4.5333vw;
+}
+.rig{
+    width: 22.4vw;
+    height: 17.8667vw;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 7.4667vw 4vw 7.7333vw 5.3333vw;
+}
+.rig img{
+    width: 100%;
+    height: 100%;
+}

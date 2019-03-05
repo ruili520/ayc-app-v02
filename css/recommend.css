@@ -1,0 +1,94 @@
+.app{
+    width: 100%;
+}
+.head{
+    margin: 4.2667vw 4.2667vw 4.2667vw 4.2667vw;
+    display: flex;
+    justify-content: space-between;
+}
+.return img{
+    width: 1.3333vw;
+    height: 4.2667vw;
+}
+.search img{
+    width: 4.2667vw;
+    height: 4.2667vw;
+}
+.no-click{
+    font-size: 4.2667vw;
+}
+.click{
+    font-weight:bold;
+    position: relative;
+}
+.click div{
+    width: 6.6667vw;
+    height: 0.5333vw;
+    background: #333;
+    /* border-radius: 50%; */
+    position: absolute;
+    left: 50%;
+    bottom: -1.3333vw;
+    margin-left:-3.333vw; 
+}
+/* 完成头部 */
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4.2667vw 1vw 4.2667vw;
+}
+.usercontent{
+    margin-left: -2.6667vw;
+    padding-bottom:5.3333vw;
+    width: 69vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fafbfc;
+}
+.userimg img{
+    width: 17.6vw;
+    height: 17.6vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+}
+.username{
+    font-weight:bold;
+    font-size: 4.2667vw;
+}
+.bardian{
+    width: 47vw;
+    color: #9398a2;
+    font-size: 4.2667vw;
+    margin: 2.6667vw 0 2.6667vw 0;
+    display: -webkit-box;
+    max-height: 6vw;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
+.fans{
+    color: #9398a2;
+    font-size: 2.6667vw;
+}
+.attention{
+    position: relative;
+    top: 7.6667vw;
+    border-radius: 34%;
+    width: 14.1333vw;
+    height: 6.4vw;
+    text-align: center;
+    line-height: 6.4vw;
+    background: #e5f7ff;
+    color:#54cbff;
+    font-size: 2.6667vw;
+}
+.bto{
+    width: 93vw;
+    height: 9.6vw;
+    background: #f4f8ff;
+    color: #73d3ff;
+    text-align: center;
+    line-height: 9.6vw;
+    border-radius: 1.3333vw;
+    margin-left:3.6667vw; 
+}

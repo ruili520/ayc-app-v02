@@ -1,0 +1,200 @@
+.app {
+  background: #f9f9f9;
+}
+.head {
+  background-image: url(../img/钱包-导航栏@2x.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 5vw;
+  border-bottom-right-radius: 5vw;
+  height: 80vw;
+  padding: 4.2667vw;
+}
+.head img {
+  width: 2.6667vw;
+  height: 4.8vw;
+}
+/* 头部 */
+.itme {
+  text-align: center;
+  line-height: 9.0667vw;
+}
+.itme h1 {
+  font-size: 4.8vw;
+  color: #fff;
+  font-weight: bold;
+}
+.itme p {
+  font-size: 3.7333vw;
+  color: #ffeb5a;
+}
+/* 当前时间 */
+.quantity {
+  display: flex;
+  justify-content: space-between;
+}
+.quantity span {
+  background: #00a9fb;
+  border-radius: 2vw;
+  padding: 2.6667vw;
+  font-size: 8.6667vw;
+  font-weight: bold;
+  color: #fff;
+}
+.Count-Zero {
+  padding-top: 5.3333vw;
+  text-align: center;
+  color: #fff;
+  font-size: 3.7333vw;
+}
+.Count-Zero span {
+  border-radius: 2vw;
+  font-size: 4vw;
+  padding: 2.1333vw;
+  font-weight: bold;
+  color: #fff;
+  background: #00a9fb;
+}
+/* 倒计时 */
+.next-time {
+  font-size: 2.9333vw;
+  color: #ffeb5a;
+  text-align: center;
+  line-height: 8.8vw;
+  margin-top: 5.3333vw;
+  background: #1fc1ff;
+  border-radius: 2vw;
+}
+/* 下次兑换时间 */
+.user {
+  margin: 2.2667vw;
+  background: #fff;
+  margin-top: -15vw;
+  border-radius: 2vw;
+}
+.user h2 {
+  padding-top: 6.4vw;
+  font-size: 3.7333vw;
+  font-weight: bold;
+  text-align: center;
+}
+.user img {
+  width: 6.4vw;
+  height: 8vw;
+}
+.gross {
+  display: flex;
+  justify-content: center;
+  padding: 10.6667vw 0 4.8vw 0;
+}
+.gross span {
+  font-size: 6.6667vw;
+  font-weight: bold;
+  line-height: 8vw;
+}
+.user .about {
+  font-size: 3.7333vw;
+  color: #8f949e;
+  text-align: center;
+}
+.import {
+  display: flex;
+  justify-content: center;
+}
+.import .import-two {
+  padding-top: 2.1333vw;
+  font-size: 4vw;
+  font-weight: bold;
+}
+.import div {
+  display: flex;
+  justify-content: space-between;
+  width: 64vw;
+  padding: 2.1333vw;
+  border-bottom: 0.2667vw solid #f6f7f9;
+}
+.import div p {
+  font-size: 4vw;
+}
+.import span {
+  font-size: 3.2vw;
+  /* height: 3.7333vw; */
+  padding: 1.6vw;
+  background: #e5f7ff;
+  color: #87daff;
+}
+.circle {
+  border-bottom-left-radius: 6vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  border-top-right-radius: 6vw;
+}
+.select {
+  width: 69.3333vw;
+  margin: 0 auto;
+  padding: 7.3333vw 0 6.3333vw 0;
+}
+.select li {
+  text-align: center;
+  width: 100%;
+  height: 12.2667vw;
+  line-height: 12.2667vw;
+  font-size: 3.7333vw;
+}
+.enter {
+  border-bottom-left-radius: 6vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 6vw;
+  border-top-right-radius: 6vw;
+  background: #00b8ff;
+  color: #fff;
+}
+.parities img {
+  width: 4.5333vw;
+  height: 3.4667vw;
+}
+.parities {
+  width: 25.3333vw;
+  font-size: 2.9333vw;
+  margin: 3.7333vw;
+  padding: 1.6667vw 9.3333vw;
+  background: #f4f8ff;
+  color: #a2e1ff;
+}
+.release {
+  display: flex;
+  justify-content: flex-start;
+}
+.present {
+  font-size: 2.6667vw;
+  color: #b6bac3;
+  padding-top: 5.6667vw;
+}
+/* 兑换数量 */
+.cash{
+    margin: 2.2667vw;
+    background: #fff;
+    margin-top:2.6667vw; 
+    border-radius: 2vw;
+}
+.cash-top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5.3333vw 2.6667vw;
+}
+.cash-top h2{
+    position: relative;
+    right: 26.6667vw;
+    font-weight: bold;
+    font-size: 4.2667vw;
+}
+.cash-top span{
+    color: #a2a7b3;
+    font-size: 3.2vw;
+}
+.cash-s{
+    text-align: center;
+    font-size:7.4667vw;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content:start;
+    padding-top: 4.8vw;
+}
+.nav img{
+    width: 2.6667vw;
+    height: 4.5333vw;
+    padding-left: 4.2667vw;
+}
+.nav h1{
+    font-size: 4.5333vw;
+    color: #4c5059;
+    font-weight: bold;
+    line-height: 4.5333vw;
+    padding-left: 33.3333vw;
+}
+.nav p{
+    padding-left: 28.1333vw;
+    font-size: 4.1333vw;
+    color: #7d838f;
+    font-weight: bold;
+    line-height: 4.5333vw;
+}
+.text{
+    margin: 9.0667vw 0 0 4.2667vw;
+}
+textarea{
+    width: 85.2vw;
+    height: 31.0666vw;
+    border-radius: 15px;
+    resize: none;
+    padding: 6.2667vw 0 0 5.4667vw;
+    font-size: 3.4667vw;
+    color: #9fa4b0;
+}
+.text p{
+    padding-left: 84vw;
+    font-size: 2.6667vw;
+    color: #9fa4b0;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/yanzhenma.css" />
+  </head>
+  <body>
+    <div class="head">
+      <img src="../img/导航栏返回箭头@2x.png" alt="" />
+      <h1>实名认证</h1>
+    </div>
+    <div class="hint">
+      <p>实名认证后无法更改，请谨慎填写</p>
+    </div>
+    <ul>
+      <li class="mobile">
+        <h2>真实姓名</h2>
+        <div class="input">
+          <img class="img-l" src="../img/真实姓名@2x.png" alt="" />
+          请输入您的真实姓名
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li class="mobile">
+        <h2>身份证号码</h2>
+        <div class="input">
+          <img class="img-l" src="../img/身份证号码@2x.png" alt="" />
+          请输入您的身份证号码
+        </div>
+        <div class="mistake">
+          <img src="../img/！@2x.png" alt="" />
+          <p>身份证号码输入不正确</p>
+        </div>
+      </li>
+    </ul>
+    <ul class="select">
+      <li class="enter colore">立即认证</li>
+    </ul>
+    <div class="welfare">
+      <h3>实名认证后您可以:</h3>
+      <ul>
+        <li>
+          <img src="../img/对号@2x.png" alt="" />
+          成为作者
+        </li>
+        <li>
+          <img src="../img/对号@2x.png" alt="" />
+          提现
+        </li>
+        <li>
+          <img src="../img/对号@2x.png" alt="" />
+          获得50OIT
+        </li>
+        <li>
+          <img src="../img/对号@2x.png" alt="" />
+          其他更多官方福利
+        </li>
+      </ul>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script>
+        $('.head').on('click',function(){
+          window.location="login.html"
+        })
+        $('.enter').on('click',function(){
+          window.location="tongguo.html"
+        })
+    </script>
+  </body>
+</html>
